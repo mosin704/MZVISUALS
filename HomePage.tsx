@@ -1,13 +1,12 @@
-import Navbar from '../components/Navbar';
-import HeroSection from '../components/HeroSection';
-import ServicesSection from '../components/ServicesSection';
-import WorkSection from '../components/WorkSection';
-import AboutSection from '../components/AboutSection';
-import ReviewSection from '../components/ReviewSection';
-import HiringSection from '../components/HiringSection';
-import ContactSection from '../components/ContactSection';
-import Footer from '../components/Footer';
-
+import Navbar from './Navbar';
+import HeroSection from './HeroSection';
+import ServicesSection from './ServicesSection';
+import WorkSection from './WorkSection';
+import AboutSection from './AboutSection';
+import ReviewSection from './ReviewSection';
+import HiringSection from './HiringSection';
+import ContactSection from './ContactSection';
+import Footer from './Footer';
 export default function HomePage() {
   return (
     <div className="bg-zinc-950 min-h-screen">
