@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from "./AuthContext";
 import { Eye, EyeOff, Lock, User, KeyRound, LogIn, Film } from 'lucide-react';
 
 const SECRET_CODE = 'arise@#%$123';
