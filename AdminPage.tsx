@@ -1,17 +1,16 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from './AuthContext';
 import {
   LayoutDashboard, Film, Users, Star, Briefcase, Settings,
   LogOut, Menu, X, ChevronRight
 } from 'lucide-react';
-import AdminDashboard from '../components/admin/AdminDashboard';
-import AdminVideos from '../components/admin/AdminVideos';
-import AdminClients from '../components/admin/AdminClients';
-import AdminReviews from '../components/admin/AdminReviews';
-import AdminHiring from '../components/admin/AdminHiring';
-import AdminSettings from '../components/admin/AdminSettings';
-
+import AdminDashboard from './AdminDashboard';
+import AdminVideos from './AdminVideos';
+import AdminClients from './AdminClients';
+import AdminReviews from './AdminReviews';
+import AdminHiring from './AdminHiring';
+import AdminSettings from './AdminSettings';
 type Tab = 'dashboard' | 'videos' | 'clients' | 'reviews' | 'hiring' | 'settings';
 
 const navItems = [
