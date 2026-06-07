@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './context/AuthContext';
-import HomePage from './pages/HomePage';
-import LoginPage from './pages/LoginPage';
-import AdminPage from './pages/AdminPage';
+import { AuthProvider, useAuth } from './AuthContext';
+import HomePage from './HomePage';
+import LoginPage from './LoginPage';
+import AdminPage from './AdminPage';
 
 function ProtectedAdmin() {
   const { isAdmin } = useAuth();
