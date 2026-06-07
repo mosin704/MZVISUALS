@@ -6,7 +6,7 @@ import { Eye, EyeOff, Lock, User, KeyRound, LogIn, Film } from 'lucide-react';
 const SECRET_CODE = 'arise@#%$123';
 const ADMIN_USER = 'mzvisualsadmin';
 const ADMIN_PASS = 'Mosin@#%786';
-
+import { useAuth } from "../context/AuthContext";
 type LoginMode = 'secret' | 'admin';
 
 export default function LoginPage() {
